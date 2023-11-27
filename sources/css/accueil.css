@@ -1,0 +1,34 @@
+h1
+{
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body
+{
+    background-color: black;
+}
+
+
+.R{
+    border: black;
+    padding-left: 150px;
+    margin-top: 70px;
+    float: left;
+    transition: transform .1s;  
+}
+
+
+img{
+    border-radius: 50px;
+}
+  
+.R:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
+}
+
+
+
+
